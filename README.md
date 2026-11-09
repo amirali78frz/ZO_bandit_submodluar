@@ -15,8 +15,8 @@ played. The perturbed and base points are rounded by a common random
 threshold, and drawing the smoothing direction from the unit sphere makes
 the base evaluation a zero-mean control variate, so the oracle is an
 unbiased estimator of the smoothed gradient. We establish dynamic regret
-bounds of order $O((1+\sqrt{P^*_N})N^{3/4})$ in general and
-$O((1+\sqrt{P^*_N})N^{2/3})$ under a sufficiently small drift,
+bounds of order $O((1+\sqrt{P^\ast_N})N^{3/4})$ in general and
+$O((1+\sqrt{P^\ast_N})N^{2/3})$ under a sufficiently small drift,
 where $P^*_N$ is the path length of the minimiser sequence, together with
 the corresponding $O(N^{3/4})$ and $O(N^{2/3})$ static regret bounds.
 Numerically, the method attains lower regret than the baseline algorithm of
